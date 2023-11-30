@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let checkboxes = document.querySelectorAll('input[type="checkbox"]');
 
     // if you have a radio then you have to grab another variable 
-    let radios = form.querySelectorAll('input[type="radio"]');
+    let radios = document.querySelectorAll('input[type="radio"]');
 
     //this is dynamically updated and add or substract a values which comes from selected checbox or radio
     let totalValue = 0;
